@@ -7,6 +7,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { InfomationComponent } from './infomation/infomation.component';
 import { EditorComponent } from './editor/editor.component';
+import { ContactInfoComponent } from './contact-info/contact-info.component';
+import { TemplateComponent } from './template/template.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EditorComponent } from './editor/editor.component';
     SidebarComponent,
     ToolbarComponent,
     InfomationComponent,
-    EditorComponent
+    EditorComponent,
+    ContactInfoComponent,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,
