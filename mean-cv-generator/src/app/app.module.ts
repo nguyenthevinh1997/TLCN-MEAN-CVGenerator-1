@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { InfomationComponent } from './infomation/infomation.component';
+import { EditorComponent } from './editor/editor.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    ToolbarComponent,
+    InfomationComponent,
+    EditorComponent
   ],
   imports: [
     BrowserModule,
