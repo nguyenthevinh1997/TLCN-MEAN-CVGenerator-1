@@ -2,5 +2,18 @@
     background: #FFFFFF;
     height: 297mm;
     width: 210mm;
-    box-shadow: 10px 10px #494747;
+    box-shadow: 20px 20px #494747;
+    padding: 1cm;
 }
+.flexbox-container {
+    display: flex-collumn;
+      }
+      .item {
+          
+      }
+      .contact{
+        p{
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+      }
