@@ -9,6 +9,7 @@ import { InfomationComponent } from './infomation/infomation.component';
 import { EditorComponent } from './editor/editor.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { TemplateComponent } from './template/template.component';
+import { A4ZoneComponent } from './a4-zone/a4-zone.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TemplateComponent } from './template/template.component';
     InfomationComponent,
     EditorComponent,
     ContactInfoComponent,
-    TemplateComponent
+    TemplateComponent,
+    A4ZoneComponent
   ],
   imports: [
     BrowserModule,
