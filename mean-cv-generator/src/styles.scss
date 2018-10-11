@@ -1,24 +1,11 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 /* You can add global styles to this file, and also import other style files */
 body {
-    margin: 0;
-    background: #ECEFF1;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
 }
 
 #container{
-    app-sidebar{
-        display: grid;
-        grid-template-columns: 100% 70px;
-        height: 100%;
-    }
-    app-toolbar{
-        display: grid;
-        grid-template-columns: 100% 70px;
-        height: 100%;
-    }
     #content{
-        
     }
 }

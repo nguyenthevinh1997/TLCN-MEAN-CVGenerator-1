@@ -7,6 +7,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { InfomationComponent } from './infomation/infomation.component';
 import { EditorComponent } from './editor/editor.component';
+import { ContactInfoComponent } from './contact-info/contact-info.component';
+import { TemplateComponent } from './template/template.component';
+import { A4ZoneComponent } from './a4-zone/a4-zone.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { EditorComponent } from './editor/editor.component';
     SidebarComponent,
     ToolbarComponent,
     InfomationComponent,
-    EditorComponent
+    EditorComponent,
+    ContactInfoComponent,
+    TemplateComponent,
+    A4ZoneComponent
   ],
   imports: [
     BrowserModule,

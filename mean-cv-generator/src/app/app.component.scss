@@ -1,0 +1,24 @@
+app-sidebar{
+    display: grid;
+    grid-template-columns: 100% 70px;
+    height: 100%;
+}
+app-toolbar{
+    display: grid;
+    grid-template-columns: 100% 70px;
+    height: 100%;
+}
+app-editor{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+app-infomation{
+    padding-right: 5px;
+
+}
+app-template{
+    padding: 5px;
+}
+#container{
+
+}
